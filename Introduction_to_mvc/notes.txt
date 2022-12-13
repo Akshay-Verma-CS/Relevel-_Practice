@@ -1,0 +1,15 @@
+-- npm init -y
+-- npm i express
+-- npm i nodemon --save-dev
+-- mkdir views
+-- add "start":'nodemon app.js' to scripts in package.json\
+-- npm start
+-- to route use app.use('/path',(req,res,next)=>{})
+-- npm i ejs 
+   \\ ejs is a template engine
+-- add line app.set('view engine','ejs')
+-- rename html file to .ejs
+-- use res.render('filename') 
+  \\ no need to use extension ejs
+-- ejs recognises anything within <%= %>
+
